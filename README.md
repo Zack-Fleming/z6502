@@ -7,16 +7,28 @@ This project was made using the KiCAD software, that can be downloaded [here](ht
 Below the use of pinheaders is mentioned on different occasions, all of these pinheaders are of the 2.54mm pitch variety, and are the same used in the Arduino or Raspberry Pi boards as well. 
 
 
+## Project Use
+
+Use of this project is encouraged, as this is 'open-source'. I just ask to give credit to this project. 
+
+I would like to know what others create for this project. 
+
+
 ## Revisions at a Glance
 
 Revision V1:
 
-The main changes of this version are the addition of data and control bus readouts, in the form of LEDs and pinheaders. Another change was to add PCB footprins for DIP-8 and DIP-14 type oscillators. 
+The main changes of this version are the addition of data and control bus readouts, in the form of LEDs and pinheaders. Another change was to add PCB footprins for DIP-8 and DIP-14 type oscillators.
+
+Currently planed Revisions:
+- v2: adding a clock switching, clock dividing, halt switch, and power switch
+- v3: adding another VIA chip (adding two more I/O ports)
+- v4: removing the bus readouts, for miniaturization
 
 
 ## Modules
 
-The computer features two 8-bit ports, that have their own headers for I/O modules. The silkscreen of the board will include all of the information for the design of the modules. This information includes: the position and size of the mounting holes, the length and width of the boards, and the position of the interface pin header. both I/O ports are situated next to each other, and are identical in dimensions. Now, if an I/O device needs to use both of the available ports, then one can just design a board that combines the two ports into a single board. There is not need to keep the device to only one port. 
+The computer features two 8-bit ports, that have their own headers for I/O modules. The silkscreen of the board will include all of the information for the design of the modules. This information includes: the position and size of the mounting holes, the length and width of the boards, and the position of the interface pin header. Both I/O ports are situated next to each other, and are identical in dimensions. If an I/O device needs to use both of the available ports, then one can just design a board that combines the two ports into a single board. There is no need to keep the device to only one port. 
 
 I am currently working on a template project for KiCAD, where you can create a project from the template, instead of copy pasting the project multiple times.
 
