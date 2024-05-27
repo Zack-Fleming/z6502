@@ -6245,6 +6245,164 @@
 				)
 			)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Crystal"
 			(pin_numbers hide)
 			(pin_names
@@ -8499,7 +8657,7 @@
 		(uuid "cba2dd12-6873-4688-897b-9a5ceaac7746")
 	)
 	(no_connect
-		(at 35.56 49.53)
+		(at 29.21 48.26)
 		(uuid "d18baba4-2d1c-402d-be1f-f7c7999da305")
 	)
 	(no_connect
@@ -10000,6 +10158,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 60.96) (xy 57.15 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a16f13-a82a-4623-87b1-c0f2cf8b4787")
+	)
+	(wire
+		(pts
 			(xy 265.43 88.9) (xy 270.51 88.9)
 		)
 		(stroke
@@ -10250,6 +10418,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 60.96) (xy 62.23 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15651c0d-799e-4384-83ed-963dd50cb3a2")
+	)
+	(wire
+		(pts
 			(xy 45.72 95.25) (xy 45.72 91.44)
 		)
 		(stroke
@@ -10337,6 +10515,16 @@
 			(type default)
 		)
 		(uuid "1cb46d6c-deb8-4e1a-acb5-2b3fb0672b18")
+	)
+	(wire
+		(pts
+			(xy 67.31 60.96) (xy 67.31 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d39d5a8-ee13-4344-ae12-39178c9d6078")
 	)
 	(polyline
 		(pts
@@ -12660,6 +12848,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 60.96) (xy 52.07 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0b134b-9234-4c51-a93c-23909a9a3abd")
+	)
+	(wire
+		(pts
 			(xy 228.6 149.86) (xy 228.6 137.16)
 		)
 		(stroke
@@ -13698,6 +13896,16 @@
 		)
 		(uuid "ba7ab2ab-8d14-482e-af76-2aae8d06caae")
 	)
+	(wire
+		(pts
+			(xy 82.55 60.96) (xy 82.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bacb65e6-c6d9-406e-976a-61f67f975389")
+	)
 	(bus
 		(pts
 			(xy 189.23 36.83) (xy 189.23 39.37)
@@ -14320,6 +14528,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 60.96) (xy 36.83 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06fedb5-114f-4c30-a558-f0312909cc51")
+	)
+	(wire
+		(pts
 			(xy 21.59 123.19) (xy 26.67 123.19)
 		)
 		(stroke
@@ -14357,6 +14575,16 @@
 			(type default)
 		)
 		(uuid "e2182a1d-4164-4877-bf36-f7f8135de230")
+	)
+	(wire
+		(pts
+			(xy 41.91 60.96) (xy 41.91 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22039a9-7663-448e-818f-8aaa7a37e96a")
 	)
 	(wire
 		(pts
@@ -14837,6 +15065,16 @@
 			(type default)
 		)
 		(uuid "f5f0d3c9-5911-4095-9adf-7996e64a6bd0")
+	)
+	(wire
+		(pts
+			(xy 46.99 60.96) (xy 46.99 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62635d4-55ed-4549-8f17-f10a499ed70f")
 	)
 	(wire
 		(pts
@@ -17640,7 +17878,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 60.96 0)
+		(at 46.99 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17648,7 +17886,7 @@
 		(dnp no)
 		(uuid "05bae7f7-dcff-4268-98c6-ae8643ab98e2")
 		(property "Reference" "#PWR037"
-			(at 66.04 67.31 0)
+			(at 46.99 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17657,7 +17895,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 64.77 0)
+			(at 46.99 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17665,7 +17903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 60.96 0)
+			(at 46.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17674,7 +17912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 60.96 0)
+			(at 46.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17683,7 +17921,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 60.96 0)
+			(at 46.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18307,6 +18545,71 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 82.55 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "161e61f0-286e-4500-bf0c-59f0b59fe6a7")
+		(property "Reference" "#PWR030"
+			(at 82.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 82.55 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58ed5fbd-6486-40c3-859f-d87eb828d98a")
+		)
+		(instances
+			(project "Eater 6502 computer"
+				(path "/e3c4dc5d-10d1-4a2f-851e-f2d292317641"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 205.74 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18372,7 +18675,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 78.74 57.15 0)
+		(at 57.15 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18380,7 +18683,7 @@
 		(dnp no)
 		(uuid "188a7743-9944-4610-a4b1-ce7f4625159e")
 		(property "Reference" "C12"
-			(at 78.74 54.61 0)
+			(at 58.42 56.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18389,7 +18692,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 78.74 59.69 0)
+			(at 58.42 63.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18397,8 +18700,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 79.7052 60.96 0)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 58.1152 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18407,7 +18710,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 57.15 0)
+			(at 57.15 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18416,7 +18719,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 57.15 0)
+			(at 57.15 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18573,7 +18876,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 53.34 53.34 0)
+		(at 41.91 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18581,7 +18884,7 @@
 		(dnp no)
 		(uuid "1a23bf2b-f21a-4f06-9b69-a230bc7d77fd")
 		(property "Reference" "#PWR029"
-			(at 53.34 57.15 0)
+			(at 41.91 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18590,7 +18893,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 53.34 49.53 0)
+			(at 41.91 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18598,7 +18901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 53.34 0)
+			(at 41.91 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18607,7 +18910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 53.34 0)
+			(at 41.91 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18616,7 +18919,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 53.34 0)
+			(at 41.91 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19495,71 +19798,6 @@
 			(project "Eater 6502 computer"
 				(path "/e3c4dc5d-10d1-4a2f-851e-f2d292317641"
 					(reference "D25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 59.69 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3124f09d-ccff-4b0b-827b-8b3d3a8989b8")
-		(property "Reference" "#PWR030"
-			(at 59.69 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 59.69 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ecf29c4-1c9c-437e-a2b3-b62fa137df51")
-		)
-		(instances
-			(project "Eater 6502 computer"
-				(path "/e3c4dc5d-10d1-4a2f-851e-f2d292317641"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -21319,7 +21557,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 66.04 53.34 0)
+		(at 46.99 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21327,7 +21565,7 @@
 		(dnp no)
 		(uuid "53091a4d-9cd4-4359-80ee-ad07707b9bc1")
 		(property "Reference" "#PWR031"
-			(at 66.04 57.15 0)
+			(at 46.99 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21336,7 +21574,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 66.04 49.53 0)
+			(at 46.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21344,7 +21582,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 53.34 0)
+			(at 46.99 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21353,7 +21591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 53.34 0)
+			(at 46.99 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21362,7 +21600,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 53.34 0)
+			(at 46.99 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21444,6 +21682,136 @@
 			(project "Eater 6502 computer"
 				(path "/e3c4dc5d-10d1-4a2f-851e-f2d292317641"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 67.31 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56c53e58-9ff3-45e1-b30b-877413029905")
+		(property "Reference" "#PWR056"
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 67.31 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27dee429-ed27-46f5-b5f5-f8ea58b6cf14")
+		)
+		(instances
+			(project "Eater 6502 computer"
+				(path "/e3c4dc5d-10d1-4a2f-851e-f2d292317641"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59994a55-a846-4bcd-84d3-12ff6393909d")
+		(property "Reference" "#PWR036"
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bce328f5-2707-4b3c-9743-449befd26976")
+		)
+		(instances
+			(project "Eater 6502 computer"
+				(path "/e3c4dc5d-10d1-4a2f-851e-f2d292317641"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -21985,7 +22353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 237.1852 157.48 0)
 			(effects
 				(font
@@ -22054,7 +22422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 32.7152 30.48 0)
 			(effects
 				(font
@@ -22228,7 +22596,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 60.96 0)
+		(at 52.07 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22236,7 +22604,7 @@
 		(dnp no)
 		(uuid "6bdcf0a0-ba77-47dd-aa0a-207f2f9ea8f6")
 		(property "Reference" "#PWR038"
-			(at 72.39 67.31 0)
+			(at 52.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22245,7 +22613,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 64.77 0)
+			(at 52.07 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22253,7 +22621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 60.96 0)
+			(at 52.07 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22262,7 +22630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 60.96 0)
+			(at 52.07 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22271,7 +22639,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 60.96 0)
+			(at 52.07 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22366,7 +22734,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 46.99 57.15 0)
+		(at 36.83 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22374,7 +22742,7 @@
 		(dnp no)
 		(uuid "6c54b475-4c8a-4fb0-a5d8-4866d665252e")
 		(property "Reference" "C7"
-			(at 46.99 54.61 0)
+			(at 38.1 55.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22383,7 +22751,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 46.99 59.69 0)
+			(at 38.1 63.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22391,8 +22759,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 47.9552 60.96 0)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 37.7952 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22401,7 +22769,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 57.15 0)
+			(at 36.83 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22410,7 +22778,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 57.15 0)
+			(at 36.83 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23060,7 +23428,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC00")
-		(at 35.56 57.15 90)
+		(at 29.21 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23068,7 +23436,7 @@
 		(dnp no)
 		(uuid "7534eca1-c69b-4180-8a6b-fbdcb1377116")
 		(property "Reference" "U7"
-			(at 33.02 58.42 0)
+			(at 26.67 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23076,7 +23444,7 @@
 			)
 		)
 		(property "Value" "74HC00"
-			(at 35.56 57.15 0)
+			(at 29.21 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23084,7 +23452,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
-			(at 35.56 57.15 0)
+			(at 29.21 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23093,7 +23461,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
-			(at 35.56 57.15 0)
+			(at 29.21 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23102,7 +23470,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 57.15 0)
+			(at 29.21 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23163,7 +23531,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 64.77 0)
+		(at 31.75 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23171,7 +23539,7 @@
 		(dnp no)
 		(uuid "76e9edeb-0c54-4ec7-847c-9a816b344adc")
 		(property "Reference" "#PWR027"
-			(at 38.1 71.12 0)
+			(at 31.75 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23180,7 +23548,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 68.58 0)
+			(at 31.75 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23188,7 +23556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 64.77 0)
+			(at 31.75 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23197,7 +23565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 64.77 0)
+			(at 31.75 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23206,7 +23574,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 64.77 0)
+			(at 31.75 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23292,16 +23660,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 59.69 60.96 0)
+		(lib_id "power:VCC")
+		(at 62.23 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7bd996bc-2e65-4fed-8961-6fa2b224e256")
-		(property "Reference" "#PWR036"
-			(at 59.69 67.31 0)
+		(uuid "7bb7bf31-594f-458d-8b74-8f21f691e3f6")
+		(property "Reference" "#PWR054"
+			(at 62.23 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23309,8 +23677,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 59.69 64.77 0)
+		(property "Value" "VCC"
+			(at 62.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23318,7 +23686,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 60.96 0)
+			(at 62.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23327,7 +23695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 60.96 0)
+			(at 62.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23336,7 +23704,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 60.96 0)
+			(at 62.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23345,12 +23713,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "57fecf6f-3a3f-408a-ab4f-9d04c1813a07")
+			(uuid "0c38db39-1728-4537-9360-cb30e10edf23")
 		)
 		(instances
 			(project "Eater 6502 computer"
 				(path "/e3c4dc5d-10d1-4a2f-851e-f2d292317641"
-					(reference "#PWR036")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -23909,6 +24277,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 67.31 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87adafe9-8f11-422f-9779-62e85a27a652")
+		(property "Reference" "#PWR057"
+			(at 67.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "857176f0-198f-49f1-8e44-1fe1f6714e24")
+		)
+		(instances
+			(project "Eater 6502 computer"
+				(path "/e3c4dc5d-10d1-4a2f-851e-f2d292317641"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 19.05 165.735 180)
 		(unit 1)
@@ -24115,7 +24548,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 71.12 0)
+		(at 19.05 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24123,7 +24556,7 @@
 		(dnp no)
 		(uuid "91c944f8-68cf-4964-9f05-ff13852e015c")
 		(property "Reference" "#PWR024"
-			(at 24.13 77.47 0)
+			(at 19.05 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24132,7 +24565,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 74.93 0)
+			(at 19.05 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24140,7 +24573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 71.12 0)
+			(at 19.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24149,7 +24582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 71.12 0)
+			(at 19.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24158,7 +24591,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 71.12 0)
+			(at 19.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24307,6 +24740,140 @@
 			(project "Eater 6502 computer"
 				(path "/e3c4dc5d-10d1-4a2f-851e-f2d292317641"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99610195-9c30-44ce-8a83-ecbaa20d5758")
+		(property "Reference" "#PWR055"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1b73cbf-2840-473f-9f40-e584d4882137")
+		)
+		(instances
+			(project "Eater 6502 computer"
+				(path "/e3c4dc5d-10d1-4a2f-851e-f2d292317641"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 67.31 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e1b17f9-a497-4e17-bfeb-230953c2e706")
+		(property "Reference" "C14"
+			(at 68.58 56.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 68.834 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 68.2752 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2e7c3b9-596a-4e4c-863c-7d0e65d7a2f1")
+		)
+		(pin "2"
+			(uuid "064b9511-864b-4ee6-b28d-523549f49d33")
+		)
+		(instances
+			(project "Eater 6502 computer"
+				(path "/e3c4dc5d-10d1-4a2f-851e-f2d292317641"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -24628,77 +25195,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 59.69 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a5914ce7-60bd-4bb3-b2f9-065af662d4f3")
-		(property "Reference" "C9"
-			(at 59.69 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 59.69 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 60.6552 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f57b1b4-921b-4659-94f2-1077d922465f")
-		)
-		(pin "2"
-			(uuid "4091d89f-104c-4730-905f-13dc41359bb5")
-		)
-		(instances
-			(project "Eater 6502 computer"
-				(path "/e3c4dc5d-10d1-4a2f-851e-f2d292317641"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 53.34 60.96 0)
+		(at 41.91 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24706,7 +25204,7 @@
 		(dnp no)
 		(uuid "a89ce5d8-c2a0-49af-9c31-b02f5ffe5796")
 		(property "Reference" "#PWR035"
-			(at 53.34 67.31 0)
+			(at 41.91 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24715,7 +25213,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 64.77 0)
+			(at 41.91 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24723,7 +25221,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 60.96 0)
+			(at 41.91 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24732,7 +25230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 60.96 0)
+			(at 41.91 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24741,7 +25239,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 60.96 0)
+			(at 41.91 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24900,7 +25398,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 64.77 0)
+		(at 26.67 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24908,7 +25406,7 @@
 		(dnp no)
 		(uuid "b03104d6-041b-417c-86bc-fd3c819f0ede")
 		(property "Reference" "#PWR026"
-			(at 33.02 71.12 0)
+			(at 26.67 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24917,7 +25415,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 68.58 0)
+			(at 26.67 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24925,7 +25423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 64.77 0)
+			(at 26.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24934,7 +25432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 64.77 0)
+			(at 26.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24943,7 +25441,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 64.77 0)
+			(at 26.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25030,7 +25528,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 78.74 53.34 0)
+		(at 57.15 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25038,7 +25536,7 @@
 		(dnp no)
 		(uuid "b147c644-aed1-4517-a964-c8aaa08932a8")
 		(property "Reference" "#PWR033"
-			(at 78.74 57.15 0)
+			(at 57.15 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25047,7 +25545,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 78.74 49.53 0)
+			(at 57.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25055,7 +25553,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 53.34 0)
+			(at 57.15 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25064,7 +25562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 53.34 0)
+			(at 57.15 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25073,7 +25571,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 53.34 0)
+			(at 57.15 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25677,7 +26175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 257.5052 156.21 0)
 			(effects
 				(font
@@ -25721,7 +26219,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC00")
-		(at 24.13 58.42 0)
+		(at 19.05 57.15 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25729,7 +26227,7 @@
 		(dnp no)
 		(uuid "c1ef9b44-7ae7-4910-89eb-a53a47bd3b5b")
 		(property "Reference" "U7"
-			(at 22.86 58.42 0)
+			(at 17.78 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25738,7 +26236,7 @@
 			)
 		)
 		(property "Value" "74HC00"
-			(at 20.32 62.23 90)
+			(at 15.24 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25747,7 +26245,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
-			(at 24.13 58.42 0)
+			(at 19.05 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25756,7 +26254,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
-			(at 24.13 58.42 0)
+			(at 19.05 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25765,7 +26263,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 58.42 0)
+			(at 19.05 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25820,6 +26318,75 @@
 				(path "/e3c4dc5d-10d1-4a2f-851e-f2d292317641"
 					(reference "U7")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 82.55 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4156cbe-b841-418b-962f-d00dcdc7f202")
+		(property "Reference" "C9"
+			(at 84.074 55.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 83.82 64.262 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 83.5152 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 82.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc5ecb76-d71c-4d5a-9ae3-48b7cf7be400")
+		)
+		(pin "2"
+			(uuid "3404939e-c5b9-436e-81f6-1da56c66a482")
+		)
+		(instances
+			(project "Eater 6502 computer"
+				(path "/e3c4dc5d-10d1-4a2f-851e-f2d292317641"
+					(reference "C9")
+					(unit 1)
 				)
 			)
 		)
@@ -26560,7 +27127,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 72.39 53.34 0)
+		(at 52.07 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26568,7 +27135,7 @@
 		(dnp no)
 		(uuid "d7ad00fe-3414-4c02-8670-8a3fabea3081")
 		(property "Reference" "#PWR032"
-			(at 72.39 57.15 0)
+			(at 52.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26577,7 +27144,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 72.39 49.53 0)
+			(at 52.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26585,7 +27152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 53.34 0)
+			(at 52.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26594,7 +27161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 53.34 0)
+			(at 52.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26603,7 +27170,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 53.34 0)
+			(at 52.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26805,7 +27372,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 24.13 45.72 0)
+		(at 19.05 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26813,7 +27380,7 @@
 		(dnp no)
 		(uuid "debc8c2f-8bf6-4f1b-9320-add6b2fc5dfe")
 		(property "Reference" "#PWR025"
-			(at 24.13 49.53 0)
+			(at 19.05 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26822,7 +27389,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 24.13 41.91 0)
+			(at 19.05 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26830,7 +27397,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 45.72 0)
+			(at 19.05 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26839,7 +27406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 45.72 0)
+			(at 19.05 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26848,7 +27415,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 45.72 0)
+			(at 19.05 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26870,7 +27437,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 72.39 57.15 0)
+		(at 52.07 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26878,7 +27445,7 @@
 		(dnp no)
 		(uuid "e0b84a82-347f-47bb-926d-ddc3b34be0a5")
 		(property "Reference" "C11"
-			(at 72.39 54.61 0)
+			(at 53.34 56.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26887,7 +27454,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 72.39 59.69 0)
+			(at 53.594 63.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26895,8 +27462,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 73.3552 60.96 0)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 53.0352 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26905,7 +27472,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 57.15 0)
+			(at 52.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26914,7 +27481,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 57.15 0)
+			(at 52.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27156,7 +27723,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 53.34 57.15 0)
+		(at 41.91 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27164,7 +27731,7 @@
 		(dnp no)
 		(uuid "e6c0050e-20f6-4644-9f27-49a6f1640c21")
 		(property "Reference" "C8"
-			(at 53.34 54.61 0)
+			(at 43.18 55.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27173,7 +27740,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 53.34 59.69 0)
+			(at 43.18 63.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27181,8 +27748,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 54.3052 60.96 0)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 42.8752 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27191,7 +27758,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 57.15 0)
+			(at 41.91 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27200,7 +27767,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 57.15 0)
+			(at 41.91 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27382,7 +27949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 262.5852 156.21 0)
 			(effects
 				(font
@@ -27634,7 +28201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 229.5652 157.48 0)
 			(effects
 				(font
@@ -27812,7 +28379,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 46.99 53.34 0)
+		(at 36.83 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27820,7 +28387,7 @@
 		(dnp no)
 		(uuid "f042b204-dc6e-4101-8daf-e0116f7d5145")
 		(property "Reference" "#PWR028"
-			(at 46.99 57.15 0)
+			(at 36.83 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27829,7 +28396,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 46.99 49.53 0)
+			(at 36.83 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27837,7 +28404,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 53.34 0)
+			(at 36.83 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27846,7 +28413,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 53.34 0)
+			(at 36.83 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27855,7 +28422,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 53.34 0)
+			(at 36.83 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27877,7 +28444,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 60.96 0)
+		(at 36.83 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27885,7 +28452,7 @@
 		(dnp no)
 		(uuid "f05056a9-47b4-4fbe-ad81-c8760c1a49ad")
 		(property "Reference" "#PWR034"
-			(at 46.99 67.31 0)
+			(at 36.83 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27894,7 +28461,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 64.77 0)
+			(at 36.83 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27902,7 +28469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 60.96 0)
+			(at 36.83 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27911,7 +28478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 60.96 0)
+			(at 36.83 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27920,7 +28487,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 60.96 0)
+			(at 36.83 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28143,7 +28710,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 60.96 0)
+		(at 57.15 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28151,7 +28718,7 @@
 		(dnp no)
 		(uuid "f6989fbc-857c-4924-8d79-78aa5bb525b1")
 		(property "Reference" "#PWR039"
-			(at 78.74 67.31 0)
+			(at 57.15 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28160,7 +28727,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 64.77 0)
+			(at 57.15 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28168,7 +28735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 60.96 0)
+			(at 57.15 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28177,7 +28744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 60.96 0)
+			(at 57.15 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28186,7 +28753,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 60.96 0)
+			(at 57.15 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28311,7 +28878,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 66.04 57.15 0)
+		(at 46.99 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28319,7 +28886,7 @@
 		(dnp no)
 		(uuid "f7070126-e2ed-4b88-8bd8-33cf77ad83df")
 		(property "Reference" "C10"
-			(at 66.04 54.61 0)
+			(at 48.26 56.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28328,7 +28895,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 66.04 59.69 0)
+			(at 48.26 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28336,8 +28903,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 67.0052 60.96 0)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 47.9552 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28346,7 +28913,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 57.15 0)
+			(at 46.99 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28355,7 +28922,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 57.15 0)
+			(at 46.99 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28728,6 +29295,75 @@
 			(project "Eater 6502 computer"
 				(path "/e3c4dc5d-10d1-4a2f-851e-f2d292317641"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe500970-b96a-433f-8600-3e8d36d3ffe7")
+		(property "Reference" "C13"
+			(at 63.5 56.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 63.754 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 63.1952 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27f58e0d-7bb4-41da-a47e-8d8c5ed9e64d")
+		)
+		(pin "2"
+			(uuid "13bcd374-0647-4224-9855-20410b30c4bb")
+		)
+		(instances
+			(project "Eater 6502 computer"
+				(path "/e3c4dc5d-10d1-4a2f-851e-f2d292317641"
+					(reference "C13")
 					(unit 1)
 				)
 			)
